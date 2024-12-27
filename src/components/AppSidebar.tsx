@@ -37,8 +37,13 @@ const AppSidebar = () => {
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>
-            <span className="text-yc-orange font-semibold">YC Application Assistant</span>
-            <span className="text-xs text-muted-foreground">by Lyzr</span>
+            <div className="flex flex-col items-start space-y-1 mb-4">
+              <span className="text-2xl font-bold text-yc-orange">Application Assistant</span>
+              <div className="flex items-center space-x-2">
+                <span className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yc-orange to-orange-500">YC</span>
+                <span className="text-lg text-muted-foreground">by Lyzr</span>
+              </div>
+            </div>
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
